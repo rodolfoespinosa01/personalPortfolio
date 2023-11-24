@@ -1,12 +1,12 @@
 import React from 'react'
-import mvcIMG from '../assets/img/ModelViewController_SQL.png'
 import workout_plannerIMG from '../assets/img/project2_preview.png'
 import save_plannerIMG from '../assets/img/save_planner.png'
+import sistine_previewIMG from '../assets/img/sistine_preview.png'
 
 const projects = [
 
 
-  { id: 1, img: mvcIMG, githubLink: "https://github.com/rodolfoespinosa01/bc_c14_mvc", demoLink: "https://apohl53.github.io/Workout_Planner_Project/", projectTitle: "Workout Planner" },
+  { id: 1, img: sistine_previewIMG, githubLink: "", demoLink: "https://github.com/rodolfoespinosa01/sistine", projectTitle: "Sistine Eccommerce Website" },
 
   { id: 2, img: workout_plannerIMG, githubLink: "https://github.com/rodolfoespinosa01/bc_c14_mvc", demoLink: "https://github.com/rodolfoespinosa01/Workout_Planner_Project", projectTitle: "Workout Planner" },
 
