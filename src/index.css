@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap');
+
+@layer base {
+  body {
+    font-family: 'Merriweather Sans', sans-serif;
+  }
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
+}
+
+
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center;
+  height: 250px;
+}
+
+.content-div:hover {
+  background-image: linear-gradient(to right,
+  #0582ca,
+  #003554)!important;
+}
+
+
+.active {
+  border: 2px solid white;
+}
