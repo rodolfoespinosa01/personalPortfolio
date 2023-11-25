@@ -10,6 +10,9 @@ const ContactForm = () => {
   const [message, setMessage] = useState('');
   const [messageError, setMessageError] = useState('');
 
+
+
+
   const handleNameChange = (e) => {
     const enteredName = e.target.value;
     setName(enteredName);
@@ -50,18 +53,19 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    //  allow submission once there are valid fields
-    if (name && !nameError && email && !email && message && !messageError) {
-      // Perform form submission or any other action
-      console.log('Form submitted successfully');
+
+    // Client-side validation
+    if (name && !nameError && email && !emailError && message && !messageError) {
+
+      console.log('Form submitted');
     } else {
       console.log('Form validation failed');
     }
-  };
+  }
 
   return (
-    <div name='contact' className="w-full h-screen bg-[#051923] flex justify-center items-center p-4">
-      <form onSubmit={handleSubmit} action="" className="flex flex-col max-w-[600px] w-full">
+    <div name='contact' className="w-full h-screen bg-[#051923] flex justify-center items-center p-4" >
+      <form action="https://getform.io/f/0467d9a7-7bb8-4926-910a-dc1a8e97ab67" method="POST" className="flex flex-col max-w-[600px] w-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-[#00a6fb] text-gray-300">Contact</p>
           <p className="text-gray-300 py-4">Submit the form below or shoot me an email - rodolfoespinosa01@gmail.com</p>
@@ -74,6 +78,7 @@ const ContactForm = () => {
           name='name'
           value={name}
           onChange={handleNameChange}
+          onSubmit={handleSubmit}
           required />
         {nameError && <p className="text-red-500 text-sm">{nameError}</p>}
 
@@ -84,6 +89,7 @@ const ContactForm = () => {
           name='email'
           value={email}
           onChange={handleEmailChange}
+          onSubmit={handleSubmit}
           required />
         {emailError && <p className="text-red-500 text-sm">{emailError}</p>}
 
@@ -93,16 +99,19 @@ const ContactForm = () => {
           placeholder='Message'
           value={message}
           onChange={handleMessageChange}
+          onSubmit={handleSubmit}
           required
         ></textarea>
         {messageError && <p className="text-red-500 text-sm">{messageError}</p>}
 
-        <button className="text-white border -2 hover:bg-[#00a6fb] hover:border-[#006494] px-4 py-3 my-8 mx-auto flex items-center">Let's Colaborate!</button>
+        <button className="text-white border -2 hover:bg-[#00a6fb] hover:border-[#006494] px-4 py-3 my-8 mx-auto flex items-center" type="submit">Let's Colaborate!</button>
 
       </form>
 
     </div>
   )
 }
+
+
 
 export default ContactForm
