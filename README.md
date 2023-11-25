@@ -1,28 +1,22 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+# Personal Portfolio
 
 In the project directory, you can run:
 
 ## Description
 
-> ### What was your motivation?
->
-> To see what its like to build a full web stack app using all types of routes.
+This portfolio was initally made during my Rutger Bootcamp Course. Once the course ended I took the time to start a new repository and update my portfolio with the latest projects and styles I wanted on it at the time. There will be constant updates throughout my career as a developer.
 
-> ### Why did you build this project?
->
-> To learn how to use express-sessions, handlebars, and many other npm packages
+This portfolio was made using Tailwind and REACT.
 
-> ### What problem does it solve?
->
-> Creating a full web app with all CRUD functions
+This site was deployed on Netlify.
 
-> ### What did you learn?
->
-> How to set up a MVC express/node app. I learned all the necessary steps needed to build out a fully functioning app.
+## Website draft
+
+URL: https://65621b2725e194460ef47e3e--cute-cendol-e58b63.netlify.app
+
+## Netlify Website Link
+
+https://cute-cendol-e58b63.netlify.app
 
 # Credit
 
@@ -61,8 +55,4 @@ https://github.com/rodolfoespinosa01
 
 ## Project Repo
 
-https://github.com/rodolfoespinosa01/bc_c20_reactPortfolio
-
-## Netlify Website Link
-
-https://cute-cendol-e58b63.netlify.app
+https://github.com/rodolfoespinosa01/personalPortfolio

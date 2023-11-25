@@ -6,15 +6,13 @@ import sistine_previewIMG from '../assets/img/sistine_preview.png'
 const projects = [
 
 
-  { id: 1, img: sistine_previewIMG, githubLink: "", demoLink: "https://github.com/rodolfoespinosa01/sistine", projectTitle: "Sistine Eccommerce Website" },
+  { id: 1, img: sistine_previewIMG, githubLink: "https://github.com/rodolfoespinosa01/sistine", demoLink: "https://lit-beach-80573-72943f4d2381.herokuapp.com/", projectTitle: "Eccommerce Website" },
 
   { id: 2, img: workout_plannerIMG, githubLink: "https://github.com/rodolfoespinosa01/bc_c14_mvc", demoLink: "https://github.com/rodolfoespinosa01/Workout_Planner_Project", projectTitle: "Workout Planner" },
 
 
 
   { id: 3, img: save_plannerIMG, githubLink: "https://github.com/CoreyPhillipsOfficial/save-smart", demoLink: "https://mighty-reaches-45633-a7b714f2317a.herokuapp.com/", projectTitle: "Save Smart Planner" },
-
-
 
 ]
 
