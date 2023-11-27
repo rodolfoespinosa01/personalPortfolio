@@ -16,6 +16,7 @@ const Navbar = () => {
 
       <div >
         <img src={Logo} alt="AI Logo" style={{ width: '50px' }} />
+
       </div>
 
       {/* menu */}
