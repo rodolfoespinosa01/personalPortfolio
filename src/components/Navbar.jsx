@@ -12,7 +12,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false)
   const handleClick = () => setNav(!nav)
   return (
-    <div className="w-full h-[80px] flex justify-between items-center px-4 bg-[#051923] text-gray-300">
+    <div className="w-full h-[80px] flex justify-between items-center px-4 bg-cyan-950 text-gray-300">
 
       <div >
         <img src={Logo} alt="AI Logo" style={{ width: '50px' }} />
