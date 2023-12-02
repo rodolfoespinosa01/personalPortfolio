@@ -56,7 +56,7 @@ const Navbar = () => {
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#003554]">
 
-            <a className="flex justify-between items-center w-full text-gray-300" href="/resume">Resume <BsFillPersonLinesFill size={30} /></a>
+            <NavLink className="flex justify-between items-center w-full text-gray-300" to="/resume">Resume <BsFillPersonLinesFill size={30} /></NavLink>
           </li>
 
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
@@ -71,7 +71,7 @@ const Navbar = () => {
 
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0582ca]">
 
-            <a className="flex justify-between items-center w-full text-gray-300" href="/contact">Contact <HiOutlineMail size={30} /></a>
+            <NavLink className="flex justify-between items-center w-full text-gray-300" to="/contact">Contact <HiOutlineMail size={30} /></NavLink>
           </li>
 
         </ul>
