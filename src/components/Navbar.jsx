@@ -6,7 +6,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs'
 
 
 
-import Logo from '../assets/img/pngTree_robot1.png'
+import Logo from '../assets/img/whiteLogo-rodo_code.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className="w-full h-[80px] flex justify-between items-center px-4 bg-cyan-950 text-gray-300">
 
       <div >
-        <img src={Logo} alt="AI Logo" style={{ width: '50px' }} />
+        <img src={Logo} alt="rodo_code logo" style={{ width: '150px' }} />
 
       </div>
 

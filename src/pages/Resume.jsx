@@ -1,6 +1,6 @@
 import React from 'react';
 import resume from '../assets/resume.pdf'
-import me_edit from '../assets/img/me_edit.png'
+import smileEmoji from '../assets/img/smileEmoji.png'
 
 const Resume = () => {
   const downloadPDF = () => {
@@ -50,7 +50,7 @@ const Resume = () => {
         </div>
 
         <div>
-          <img className="w-64 m-10" src={me_edit} alt="" />
+          <img className="w-64 m-10" src={smileEmoji} alt="" />
         </div>
 
       </div>
