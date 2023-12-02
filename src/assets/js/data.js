@@ -42,7 +42,7 @@ const projects = [
     id: 3,
     img: save_plannerIMG,
     githubLink: "https://github.com/CoreyPhillipsOfficial/save-smart",
-    demoLink: "https://mighty-reaches-45633-a7b714f2317a.herokuapp.com/",
+    demoLink: "https://shrouded-cove-58821-68df129a8584.herokuapp.com/",
     projectTitle: "Save Smart Planner",
     projectDescription:
       "In this project, I designed a tool aimed at efficiently calculating the proximity to achieving a goal item purchase. To utilize the tool, users are required to register an account for authentication purposes. Once registered and logged in, users gain access to functionality enabling them to add new goals and establish initial values for their objectives.",
