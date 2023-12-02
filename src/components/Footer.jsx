@@ -4,6 +4,8 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 
+import { NavLink } from 'react-router-dom'
+
 function Footer() {
   const date = new Date()
 
@@ -15,7 +17,7 @@ function Footer() {
       <ul className="flex flex-col md:flex-row md:space-x-20">
 
         <li className="w-[120px] h-[40px] rounded  flex justify-between items-center bg-[#006494]">
-          <a className="flex justify-between items-center w-full text-gray-300" href="/resume">Resume <BsFillPersonLinesFill size={30} /></a>
+          <NavLink className="flex justify-between items-center w-full text-gray-300" to="/resume">Resume <BsFillPersonLinesFill size={30} /></NavLink>
         </li>
 
         <li className="w-[120px] h-[40px] rounded flex justify-between items-center bg-blue-600">
@@ -27,7 +29,7 @@ function Footer() {
         </li>
 
         <li className="w-[120px] h-[40px] rounded flex justify-between items-center bg-[#0582ca]">
-          <a className="flex justify-between items-center w-full text-gray-300" href="/contact">Contact <HiOutlineMail size={30} /></a>
+          <NavLink className="flex justify-between items-center w-full text-gray-300" to="/contact">Contact <HiOutlineMail size={30} /></NavLink>
         </li>
 
       </ul>
