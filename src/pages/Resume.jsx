@@ -29,8 +29,8 @@ const Resume = () => {
     <>
       <div className="w-full h-screen bg-[#051923] flex flex-col justify-center items-center p-4 text-white">
         <div className="mb-8 text-center">
-          <p className="text-4xl font-bold">Rodolfo Espinosa-Nunez</p>
-          <p className="text-3xl text-[#006494]">Full Stack Developer</p>
+          <p className="lg:text-4xl text-2xl font-bold">Rodolfo Espinosa-Nunez</p>
+          <p className="lg:text-3xl text-xl text-[#006494]">Full Stack Developer</p>
         </div>
 
         <div className="mb-8 text-center">
@@ -50,7 +50,7 @@ const Resume = () => {
         </div>
 
         <div>
-          <img className="w-64 m-10" src={smileEmoji} alt="" />
+          <img className="lg:w-64 w-32 m-10" src={smileEmoji} alt="" />
         </div>
 
       </div>
