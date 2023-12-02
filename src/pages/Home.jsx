@@ -25,7 +25,7 @@ const Home = () => {
         </p>
         <div>
           <NavLink to="/work">
-            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#00a6fb] ">
+            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#00a6fb] lg:text-3xl">
               View Work
               <span className="ml-3">
                 <FcBusiness />
@@ -39,13 +39,13 @@ const Home = () => {
 
 
 
-      <div className="flex justify-center items-center gap-20">
-        <img src={selfie} alt="" className="w-60" />
+      <div className="flex justify-center items-center md:gap-20">
+        <img src={selfie} alt="" className="w-60 lg:w-96" />
         <div className="flex flex-col items-center">
-          <img className="w-32 h-32 m-10" src={smileEmoji} alt="" />
+          <img className="w-32 h-32 lg:w-64 lg:h-64 m-10" src={smileEmoji} alt="" />
           <div className="bg-blue-500 p-4 rounded-lg max-w-md">
-            <p className="text-white">
-              Hey there, nice pleasure to meet you virtually!
+            <p className="text-white lg:text-3xl">
+              Hey there, pleasure to meet you virtually!
             </p>
           </div>
         </div>

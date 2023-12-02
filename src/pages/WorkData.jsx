@@ -1,6 +1,8 @@
 import React from 'react'
 
-import projects from '../assets/data/projects'
+import data from '../assets/js/data';
+
+const { projects } = data;
 
 
 

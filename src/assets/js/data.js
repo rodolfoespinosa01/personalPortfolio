@@ -2,6 +2,13 @@ import workout_plannerIMG from "../img/project2_preview.png";
 import save_plannerIMG from "../img/save_planner.png";
 import sistine_previewIMG from "../img/sistine_preview.png";
 
+import HTML from "../img/pngTree_html.png";
+import CSS from "../img/pngTree_css.png";
+import JS from "../img/pngTree_javascript.png";
+import REACT from "../img/iconfinder_react.png";
+import MYSQL from "../img/freepnglogos_mysql.png";
+import MONGODB from "../img/MongoDB_Fores-Green.svg";
+
 const projects = [
   {
     id: 1,
@@ -43,4 +50,13 @@ const projects = [
   },
 ];
 
-export default projects;
+const skillsData = [
+  { imgSrc: HTML, alt: "HTML icon" },
+  { imgSrc: CSS, alt: "CSS icon" },
+  { imgSrc: JS, alt: "JS icon" },
+  { imgSrc: MYSQL, alt: "MYSQL icon" },
+  { imgSrc: MONGODB, alt: "MONGODB icon" },
+  { imgSrc: REACT, alt: "REACT icon" },
+];
+
+export default { projects, skillsData };

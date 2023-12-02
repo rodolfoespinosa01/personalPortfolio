@@ -1,55 +1,27 @@
-import React from 'react'
+import React from 'react';
 
-import HTML from '../assets/img/pngTree_html.png'
-import CSS from '../assets/img/pngTree_css.png'
-import JS from '../assets/img/pngTree_javascript.png'
-import REACT from '../assets/img/iconfinder_react.png'
-import MYSQL from '../assets/img/freepnglogos_mysql.png'
-import MONGODB from '../assets/img/MongoDB_Fores-Green.svg'
+import data from '../assets/js/data';
+
+const { skillsData } = data;
+
+
 
 const Skills = () => {
+  const itemsPerRow = 3;
+
   return (
-    <>
-      <div className="text-gray-300 flex flex-col p-5">
-
-        <div className="flex flex-row justify-between p-10">
-          <div >
-            <img className="w-24" src={HTML} alt="HTML icon" />
-
-          </div>
-
-          <div>
-            <img className="w-24" src={CSS} alt="CSS icon" />
-
-          </div>
-
-          <div >
-            <img className="w-24" src={JS} alt="JS icon" />
-
-          </div>
-
+    <div className="text-gray-300 flex flex-col p-5">
+      {Array.from({ length: Math.ceil(skillsData.length / itemsPerRow) }).map((_, rowIndex) => (
+        <div key={rowIndex} className="flex flex-row justify-between p-10">
+          {skillsData.slice(rowIndex * itemsPerRow, (rowIndex + 1) * itemsPerRow).map((skill, index) => (
+            <div key={index}>
+              <img className="w-24" src={skill.imgSrc} alt={skill.alt} />
+            </div>
+          ))}
         </div>
+      ))}
+    </div>
+  );
+};
 
-
-        <div className="flex flex-row justify-between p-10">
-          <div >
-            <img className="w-24" src={MYSQL} alt="MYSQL icon" />
-
-          </div>
-
-          <div >
-            <img className="w-24" src={MONGODB} alt="MONGODB icon" />
-
-          </div>
-
-          <div >
-            <img className="w-24" src={REACT} alt="REACT icon" />
-
-          </div>
-        </div>
-      </div>
-    </>
-  )
-}
-
-export default Skills
+export default Skills;
