@@ -34,16 +34,15 @@ const Resume = () => {
         </div>
 
         <div className="mb-8 text-center">
-          <p className="max-w-xl p-15 text-xl">
-            Long story short... I once ran a lucrative business that provided online coaching fitness services for fitness influencers who provided custom diet/training plans to their clients.
-            I have found a new way to automate the process I used to do before when it came to generating custom diets for people. I plan to use my new Full Stack Web Development skills to not only build my very own app but also join the workforce to gain experience in real-life web development roles.
+          <p className="max-w-xl p-15">
+            In brief, I previously managed a profitable business providing online coaching fitness services to fitness influencers who offered tailor-made diet and training plans for their clients. Now, I've innovated a method to automate the customization of diets. My goal is to utilize my recently acquired Full Stack Web Development skills not only to construct my personal app but also to actively seek employment in web development. Simultaneously, I aim to develop my app as a side project to stay engaged, enhance my skills, and apply the acquired knowledge to my prospective job in web development.
           </p>
         </div>
 
         <div>
           <button
             onClick={downloadPDF}
-            className="bg-white text-5xl text-[#00a6fb] py-2 px-4 rounded-md hover:bg-[#006494] transition duration-300"
+            className="bg-white text-2xl text-[#00a6fb] py-2 px-4 rounded-md hover:bg-[#006494] transition duration-300"
           >
             Download Resume
           </button>
