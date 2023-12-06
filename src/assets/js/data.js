@@ -1,6 +1,7 @@
 import workout_plannerIMG from "../img/project2_preview.png";
 import save_plannerIMG from "../img/save_planner.png";
 import sistine_previewIMG from "../img/sistine_preview.png";
+import dietGenerator_preview from "../img/dietGenerator_preview.png";
 
 import HTML from "../img/pngTree_html.png";
 import CSS from "../img/pngTree_css.png";
@@ -12,6 +13,24 @@ import MONGODB from "../img/MongoDB_Fores-Green.svg";
 const projects = [
   {
     id: 1,
+    img: dietGenerator_preview,
+    githubLink: "https://github.com/rodolfoespinosa01/dietGenerator",
+    demoLink: "https://httpstat.us/404",
+    projectTitle: "Diet Generator",
+    projectDescription:
+      "I am currently in the process of developing an application centered around an algorithm I created for automatically generating personalized meal plans. This algorithm stands out because of its uniqueness; there is nothing quite like it currently available. The diet plans it generates are entirely tailored to the individual, taking into account various factors. Users are required to respond to a series of questions, including details such as their height, weight, gender, fitness goals, training days per week, preferred number of daily meals, workout times, and food preference. In the initial phase of this project, my primary focus is on completing the dietary aspect to align with users fitness objectives. Following this, I plan to integrate a training algorithm that I have also developed.",
+    techStack: [
+      "React",
+      "Javascript",
+      "Node.js",
+      "Express",
+      "JWT",
+      "Stripe",
+      "Bootstrap",
+    ],
+  },
+  {
+    id: 2,
     img: sistine_previewIMG,
     githubLink: "https://github.com/rodolfoespinosa01/sistine",
     demoLink: "https://lit-beach-80573-72943f4d2381.herokuapp.com/",
@@ -29,7 +48,7 @@ const projects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     img: workout_plannerIMG,
     githubLink: "https://github.com/rodolfoespinosa01/bc_c14_mvc",
     demoLink: "https://github.com/rodolfoespinosa01/Workout_Planner_Project",
@@ -39,7 +58,7 @@ const projects = [
     techStack: ["JavaScript", "Node.js", "Express", "APIs", "localStorage"],
   },
   {
-    id: 3,
+    id: 4,
     img: save_plannerIMG,
     githubLink: "https://github.com/CoreyPhillipsOfficial/save-smart",
     demoLink: "https://shrouded-cove-58821-68df129a8584.herokuapp.com/",

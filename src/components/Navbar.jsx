@@ -25,8 +25,8 @@ const Navbar = () => {
         <li><NavLink className="hover:underline p-1" to="/">Home</NavLink></li>
         <li> <NavLink className="hover:underline p-1" to="/about">About</NavLink></li>
         <li> <NavLink className="hover:underline p-1" to="/work">Work</NavLink></li>
-        <li> <NavLink className="hover:underlin p-1" to="/contact">Contact</NavLink></li>
-        <li> <NavLink className="hover:underlin p-1" to="/resume">Resume</NavLink></li>
+        <li> <NavLink className="hover:underline p-1" to="/contact">Contact</NavLink></li>
+        <li> <NavLink className="hover:underline p-1" to="/resume">Resume</NavLink></li>
       </ul>
 
 
