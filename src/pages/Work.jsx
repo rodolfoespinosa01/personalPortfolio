@@ -3,9 +3,9 @@ import { BsArrowDownSquare } from "react-icons/bs";
 
 import WorkData from './WorkData'
 
-import data from '../assets/js/data';
+import { projects } from '../assets/js/data';
 
-const { projects } = data;
+
 
 
 const Work = () => {

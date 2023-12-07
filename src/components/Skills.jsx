@@ -1,10 +1,6 @@
 import React from 'react';
 
-import data from '../assets/js/data';
-
-const { skillsData } = data;
-
-
+import { skillsData } from '../assets/js/data';
 
 const Skills = () => {
   const itemsPerRow = 3;

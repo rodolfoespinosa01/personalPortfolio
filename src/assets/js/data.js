@@ -10,15 +10,15 @@ import REACT from "../img/iconfinder_react.png";
 import MYSQL from "../img/freepnglogos_mysql.png";
 import MONGODB from "../img/MongoDB_Fores-Green.svg";
 
-const projects = [
+export const projects = [
   {
     id: 1,
     img: dietGenerator_preview,
     githubLink: "https://github.com/rodolfoespinosa01/dietGenerator",
-    demoLink: "https://httpstat.us/404",
+    demoLink: "https://young-woodland-31941-a293038cf79d.herokuapp.com/login",
     projectTitle: "Diet Generator",
     projectDescription:
-      "I am currently in the process of developing an application centered around an algorithm I created for automatically generating personalized meal plans. This algorithm stands out because of its uniqueness; there is nothing quite like it currently available. The diet plans it generates are entirely tailored to the individual, taking into account various factors. Users are required to respond to a series of questions, including details such as their height, weight, gender, fitness goals, training days per week, preferred number of daily meals, workout times, and food preference. In the initial phase of this project, my primary focus is on completing the dietary aspect to align with users fitness objectives. Following this, I plan to integrate a training algorithm that I have also developed.",
+      "Introducing our revolutionary diet generator, a one-of-a-kind tool designed to cater to your unique preferences and goals. What sets our generator apart is its unparalleled personalization, achieved through a comprehensive questionnaire that delves into crucial factors. Users provide details such as age, height, weight, preferred number of daily meals, and specific training times. We customize your macronutrient ratios around your training schedule, ensuring optimal nutrition. Additionally, we consider your weekly schedule, allowing you to indicate days off and tailor your plan accordingly. Choose from a variety of meal plan types, including standard, carb-cycling, and keto. Specify your fitness goals—whether it's weight loss, maintaining or enhancing physique, or gaining muscle. We go even further by considering your lifestyle, categorized as low, mid, or active. But the personalization doesn't stop there. You have the freedom to select the foods you love, and our algorithm calculates precise portions for each meal, aligning with your unique macro goals. Experience a truly personalized approach to nutrition planning with our cutting-edge diet generator. Your journey to a healthier, more tailored lifestyle starts here. THE PROJECT IS IN A VERY EARLY STAGE RIGHT NOW. THE DEMOS JUST ILLUSTRATES A COMPLETE USER AUTHENTICATION MODEL.",
     techStack: [
       "React",
       "Javascript",
@@ -27,6 +27,12 @@ const projects = [
       "JWT",
       "Stripe",
       "Bootstrap",
+      "Axios",
+      "Bcrypt",
+      "Cookie-parsar",
+      "Dotenv",
+      "Jsonwebtoken",
+      "mongoose",
     ],
   },
   {
@@ -69,7 +75,7 @@ const projects = [
   },
 ];
 
-const skillsData = [
+export const skillsData = [
   { imgSrc: HTML, alt: "HTML icon" },
   { imgSrc: CSS, alt: "CSS icon" },
   { imgSrc: JS, alt: "JS icon" },
@@ -77,5 +83,3 @@ const skillsData = [
   { imgSrc: MONGODB, alt: "MONGODB icon" },
   { imgSrc: REACT, alt: "REACT icon" },
 ];
-
-export default { projects, skillsData };
