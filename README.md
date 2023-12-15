@@ -47,6 +47,9 @@ https://freepngimg.com/png/64956-emoticon-thumb-double-button-smiley-emoji-signa
 ![Alt text](src/assets/img/tailwindcss.svg)
 https://www.svgrepo.com/svg/354430/tailwindcss
 
+![Alt text](src/assets/img/mongodb.svg)
+https://cute-cendol-e58b63.netlify.app/
+
 ## Questions for me?
 
 Shoot me an email to rodolfoespinosa01@gmail.com

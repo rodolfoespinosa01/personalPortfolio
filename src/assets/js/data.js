@@ -6,7 +6,7 @@ import dietGenerator_preview from "../img/dietGenerator_preview.png";
 import JS from "../img/pngTree_javascript.png";
 import REACT from "../img/iconfinder_react.png";
 import MYSQL from "../img/freepnglogos_mysql.png";
-import MONGODB from "../img/MongoDB_Fores-Green.svg";
+import MONGODB from "../img/mongodb.svg";
 import TAILWIND from "../img/tailwindcss.svg";
 import BOOTSTRAP from "../img/bootstrap.svg";
 
