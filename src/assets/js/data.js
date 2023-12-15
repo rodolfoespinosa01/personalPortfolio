@@ -3,12 +3,12 @@ import save_plannerIMG from "../img/save_planner.png";
 import sistine_previewIMG from "../img/sistine_preview.png";
 import dietGenerator_preview from "../img/dietGenerator_preview.png";
 
-import HTML from "../img/pngTree_html.png";
-import CSS from "../img/pngTree_css.png";
 import JS from "../img/pngTree_javascript.png";
 import REACT from "../img/iconfinder_react.png";
 import MYSQL from "../img/freepnglogos_mysql.png";
 import MONGODB from "../img/MongoDB_Fores-Green.svg";
+import TAILWIND from "../img/tailwindcss.svg";
+import BOOTSTRAP from "../img/bootstrap.svg";
 
 export const projects = [
   {
@@ -76,10 +76,10 @@ export const projects = [
 ];
 
 export const skillsData = [
-  { imgSrc: HTML, alt: "HTML icon" },
-  { imgSrc: CSS, alt: "CSS icon" },
+  { imgSrc: REACT, alt: "REACT icon" },
+  { imgSrc: TAILWIND, alt: "TAILWIND icon" },
+  { imgSrc: BOOTSTRAP, alt: "BOOTSTRAP icon" },
   { imgSrc: JS, alt: "JS icon" },
   { imgSrc: MYSQL, alt: "MYSQL icon" },
   { imgSrc: MONGODB, alt: "MONGODB icon" },
-  { imgSrc: REACT, alt: "REACT icon" },
 ];

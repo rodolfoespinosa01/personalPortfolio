@@ -44,6 +44,9 @@ https://www.iconfinder.com/icons/1174949/js_react_js_logo_react_react_native_ico
 ![Alt text](src/assets/me_edit.png)
 https://freepngimg.com/png/64956-emoticon-thumb-double-button-smiley-emoji-signal
 
+![Alt text](src/assets/img/tailwindcss.svg)
+https://www.svgrepo.com/svg/354430/tailwindcss
+
 ## Questions for me?
 
 Shoot me an email to rodolfoespinosa01@gmail.com

@@ -19,9 +19,7 @@ const Home = () => {
         <p className="text-[#006494] py-4 max-w-[1000px]">
           I'm a dedicated full-stack developer passionate about creating innovative solutions. Actively seeking full-time opportunities, I'm committed to contributing my skills to a dynamic team. Concurrently, I'm devoted to developing my personal project—an advanced diet generator, reflecting my commitment to global nutrition impact.
 
-          My goal is to integrate the cutting-edge diet algorithm I've developed into my web application, empowering millions to enhance their nutrition lifestyle. I believe in technology's power to transform lives and am eager to join a forward-thinking company, contributing my expertise while continuing to innovate independently.
-
-          Recruiters or employers interested in a health tech enthusiast and full-stack developer with ongoing personal projects, I'm open to connecting with you.
+          My goal is to integrate the cutting-edge diet algorithm I've developed into my web application, empowering millions to enhance their nutrition lifestyle. I believe in technology's power to transform lives and am eager to join a forward-thinking company, contributing my knowledge while continuing to innovate independently.
         </p>
         <div>
           <NavLink to="/work">
