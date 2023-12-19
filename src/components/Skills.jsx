@@ -10,8 +10,9 @@ const Skills = () => {
       {Array.from({ length: Math.ceil(skillsData.length / itemsPerRow) }).map((_, rowIndex) => (
         <div key={rowIndex} className="flex flex-row justify-between p-10">
           {skillsData.slice(rowIndex * itemsPerRow, (rowIndex + 1) * itemsPerRow).map((skill, index) => (
-            <div key={index}>
+            <div className="flex flex-col items-center" key={index}>
               <img className="w-24" src={skill.imgSrc} alt={skill.alt} />
+              <p className="mt-3">{skill.title}</p>
             </div>
           ))}
         </div>

@@ -18,7 +18,7 @@ export const projects = [
     demoLink: "https://young-woodland-31941-a293038cf79d.herokuapp.com/login",
     projectTitle: "Diet Generator",
     projectDescription:
-      "Unveiling our groundbreaking diet generator a revolutionary tool that caters to your unique preferences and goals. What sets us apart is our unparalleled personalization achieved through a comprehensive questionnaire. Users input age, height, weight, preferred daily meals, and training times. We customize macronutrient ratios based on your schedule, ensuring optimal nutrition. Factor in your weekly schedule, indicate days off, and tailor your plan. Choose from standard, carb-cycling, or keto meal plans. Specify fitness goals—weight loss, maintenance, muscle gain. Consider your lifestyle—low, mid, or active. But it doesn't stop there. Select your favorite foods, and our algorithm calculates precise portions for each meal, aligning with your unique macro goals. Experience a personalized approach to nutrition planning with our cutting-edge diet generator. Your journey to a healthier lifestyle starts here. (Note: The project is in early stages; demos illustrate a complete user authentication model along with basic questionnaire to collect inputs from user.",
+      "Unveiling our groundbreaking diet generator a revolutionary tool that caters to your unique preferences and goals. What sets us apart is our unparalleled personalization achieved through a comprehensive questionnaire. Users input age, height, weight, preferred daily meals, and training times. We customize macronutrient ratios based on your schedule, ensuring optimal nutrition. Factor in your weekly schedule, indicate days off, and tailor your plan. Choose from standard, carb-cycling, or keto meal plans. Specify fitness goals—weight loss, maintenance, muscle gain. Consider your lifestyle—low, mid, or active. But it doesn't stop there. Select your favorite foods, and our algorithm calculates precise portions for each meal, aligning with your unique macro goals. Experience a personalized approach to nutrition planning with our cutting-edge diet generator. Your journey to a healthier lifestyle starts here. (Note: The project is in early stages; demos illustrate a complete user authentication model along with basic questionnaire to collect inputs from user.) - You can register a new user or use the following credentials: EMAIL: test@test.com PASSWORD: password123",
     techStack: [
       "React",
       "Javascript",
@@ -76,10 +76,10 @@ export const projects = [
 ];
 
 export const skillsData = [
-  { imgSrc: REACT, alt: "REACT icon" },
-  { imgSrc: TAILWIND, alt: "TAILWIND icon" },
-  { imgSrc: BOOTSTRAP, alt: "BOOTSTRAP icon" },
-  { imgSrc: JS, alt: "JS icon" },
-  { imgSrc: MYSQL, alt: "MYSQL icon" },
-  { imgSrc: MONGODB, alt: "MONGODB icon" },
+  { imgSrc: REACT, alt: "REACT icon", title: "React.js" },
+  { imgSrc: TAILWIND, alt: "TAILWIND icon", title: "Tailwind CSS Library" },
+  { imgSrc: BOOTSTRAP, alt: "BOOTSTRAP icon", title: "Bootstrap CSS Library" },
+  { imgSrc: JS, alt: "JS icon", title: "Javascript" },
+  { imgSrc: MYSQL, alt: "MYSQL icon", title: "MYSQL Database" },
+  { imgSrc: MONGODB, alt: "MONGODB icon", title: "MongoDB Database" },
 ];
